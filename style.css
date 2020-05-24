@@ -614,7 +614,6 @@ exclusive-product-content-text {
 
 .contacts-head h5 {
     margin-top: 176px;
-    width: 306px;
     height: 43px;
     font-family: Montserrat;
     font-size: 62px;
@@ -680,4 +679,203 @@ exclusive-product-content-text {
 
 .contacts-content-block .adress-text {
     font-weight: bold;
+}
+
+.products-content-header {
+    margin-top: 71px;
+    margin-left: 98px;
+}
+
+.products-content-block {
+    display: flex;
+    margin: 50px 98px 71px 98px;
+    height: 1570px;
+    width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-tab-controll {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product-tab-controll-link {
+    color: #6c6c6c;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.product-tab-controll-link {
+    color: #6c6c6c;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.product-tab-controll-link:hover {
+    border-bottom: 1px solid #6c6c6c;
+    cursor: pointer;
+}
+
+.link-active {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+[alt="обновить"] {
+    margin: 71px 652px 140px 672px;
+}
+
+.product-head {
+    height: 119px;
+}
+
+
+/* product page */
+
+.products-menu {
+    display: flex;
+    width: 1366px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.products-menu ul {
+    display: flex;
+    width: 647px;
+    height: 13px;
+    justify-content: space-between;
+}
+
+.products-menu ul li {
+    list-style-type: none;
+}
+
+.products-menu ul li a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.products-menu ul li a:hover {
+    color: #212121;
+}
+
+.product-section {
+    display: flex;
+    margin: 72px 132px 0px 98px;
+    width: 1136px;
+    height: 651px;
+}
+
+.product-image {
+    width: 570px;
+    height: 651px;
+}
+
+.product-content {
+    width: 566px;
+    height: 651px;
+}
+
+.related-products {
+    height: 468px;
+    margin: 245px 97px 120px 98px;
+}
+
+.related-products-product {
+    margin-top: 68px;
+}
+
+.product-sm-image {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+[alt="slider-sm-product"] {
+    margin-right: 10px;
+}
+
+.product-content h2 {
+    margin-top: 47px;
+    margin-left: 198px;
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.product-content h3 {
+    width: 180px;
+    margin: 23px 264px;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+}
+
+.price {
+    margin-left: 196px;
+}
+
+.price > p {
+    color: #212121;
+    font-weight: 300;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.price-amount {
+    font-size: 72px;
+}
+
+.product-button {
+    /* Style for "Order Us" */
+    margin: 31px 56px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Style for "back" */
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    width: 510px;
+    height: 71px;
+    line-height: 45px;
+    display: flex;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-content > p {
+    margin: 49px 61px;
+    width: 499px;
+    height: 248px;
+    /* Style for "The majest" */
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    /* Text style for "The majest" */
+    letter-spacing: 0.4px;
+    overflow: hidden;
 }
